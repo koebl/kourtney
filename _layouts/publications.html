@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<!-- Layout to display publications/research -->
+<!-- Sort publications by date -->
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+
+<div class="row">
+  <div class="twelve columns">
+    <!-- Get all the types of publications, run through the list -->
+    {% for item in site.publicationtype %}
+    <!-- Rename type, lower case text -->
+      {% assign pubtype = item.type | downcase %}
+      <!-- If a long title is defiend, that's different from "type" use that for the header -->
+      {% if item.long %}
+        <h4>{{ item.long }}</h4>
+        <hr/>
+      {% else %}
+      <!-- Otherwise just use the type -->
+      <!-- If the publication type is meant to be singular, don't put the pluralizing s -->
+        <h4>{{ item.type}}{% unless item.singular == true %}s{% endunless %}</h4>
+        <hr/>
+      {% endif %}
+      {% for publication in pubs %}
+      <!-- The above puts the publication type headline text, now for a given type, we run through all the publications of that type -->
+      <!-- Convert the type in the publication md to lower case -->
+        {% assign type = publication.type | downcase %}
+        <!-- If the publication is of the type we are iterating through (i.e. it should be under this headline) this will make sure to include it. -->
+        {% if type == pubtype %}
+          <!-- If this publication has a specific listing format go the custom page -->
+          {% if item.custom == true %}
+            {% if item.author == true %}
+            <!-- CUSTOM AUTHOR LISTING UNTESTED -->
+              {% include pub_cite_custom_author.html %}
+            {% else %}
+              {% include pub_cite_custom.html %}
+            {% endif %}
+          {% else %}
+          <!-- Otherwise just use the default -->
+            {% include pub_cite.html %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>

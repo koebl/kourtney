@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% assign sorted = site.data.courses | sort: 'date' | reverse %}
+
+<div class="row">
+  <div class="twelve columns">
+    {% for item in site.coursetype %}
+      {% assign coursetype = item.type|downcase %}
+        <h4>{{ item.type }}</h4>
+        <hr/>
+        {% if coursetype == "guest lectures"%}
+          <table>
+            {% for item in gsorted %}
+                <tr>
+                  <td></td>
+                  <td>{{ item.date | date: "%Y" }}</td>
+                  <td>{{ item.title }}, {{ item.date | date: "%B %-d" }}.</td>
+                </tr>
+            {% endfor %}
+          </table>
+        {% else %}
+          {% for item in item.include %}
+          {% assign courseinstitution = item.institution|downcase %}
+          <span class="institution">{{ item.institution }}</span>
+          <table>
+            {% for item in sorted %}
+              {% assign type = item.type|downcase %}
+              {% assign institution = item.institution|downcase %}
+              {% if type == coursetype %}
+              {% if institution == courseinstitution %}
+                <tr>
+                  <td></td>
+                  <td>{{ item.year }}</td>
+                  <td>{{ item.title }}</td>
+                  {% if site.courselist.evaluations %}<td>{% if item.evaluations %}<a href="{{ item.evaluations }}" class="item">Course Evaluations</a>{% endif %}</td>{% endif %}
+                </tr>
+              {% endif %}
+              {% endif %}
+            {% endfor %}
+          </table>
+        {% endfor %}
+        {% endif %}
+      {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,245 @@
+###############################################################################
+# Table of Contents ###########################################################
+###############################################################################
+# 1. Links that show up in the navigation bar #################################
+# 2. Publication types. Working papers, conference papers, etc. ###############
+# 3. Course Categories ########################################################
+# 4. Categories of media ######################################################
+# 5. Coauthors ################################################################
+# 6. Social Icons##############################################################
+# 7a Profile Information ######################################################
+# 7b. List of degrees #########################################################
+# 8. Home Page Appearance #####################################################
+# 9. Courses Page Appearance ##################################################
+# 10. Social Sharing ##########################################################
+# 11. Design/theme parameters #################################################
+# 12. Misc ####################################################################
+###############################################################################
+# 1. Links that show up in the navigation bar #################################
+###############################################################################
+navigation:
+ - name: Research
+   link: /publications/
+ - name: Teaching
+   link: /teaching/
+ - name: Media
+   link: /media/
+ - name: CV
+   link: "https://1drv.ms/b/s!Aik0C2CDKQIAgWviEkshlHmbzjbf?e=JsZ5NB"
+###############################################################################
+# 2. Publication types. Working papers, conference papers, etc. ###############
+###############################################################################
+publicationtype:
+- type                 : "Working Paper"
+- type                 : "Journal Article"
+- type                 : "Book Chapter"
+  custom               : true
+- type                 : "Other Publication"
+###############################################################################
+# 3. Course Categories ########################################################
+###############################################################################
+coursetype:
+- type                 : "Course Instructor (Graduate)"
+  include:
+    - institution      : "Centre of Industrial Relations and Human Resources, University of Toronto"
+- type                 : "Teaching Assistant (Graduate)"
+  include:
+    - institution      : "Centre of Industrial Relations and Human Resources, University of Toronto"
+    - institution      : "Department of Business, MBA Program, Wilfrid Laurier University"
+- type                 : "Teaching Assistant (Undergraduate)"
+  include:
+    - institution      : "Department of Management, University of Toronto Scarborough"
+    - institution      : "Department of Political Science, University of Toronto Mississauga"
+    - institution      : "Department of Economics, Queen’s University"
+    - institution      : "Department of Political Science, Wilfrid Laurier University"
+###############################################################################
+# 4. Categories of media ######################################################
+###############################################################################
+mediacategories:
+- medium               : "Opinion Editorials and Other Commentary"
+- medium               : "Media Coverage"
+###############################################################################
+# 5. Coauthors ################################################################
+###############################################################################
+coauthors:
+ - name                 : Koebel
+   first                : K.
+ - name                 : Boadway
+   first                : R.
+   link                 : "https://www.econ.queensu.ca/people/faculty/robin-boadway"
+ - name                 : Cuff
+   first                : K.
+   link                 : "https://socialsciences.mcmaster.ca/people/cuff-katherine"
+ - name                 : Schirle
+   first                : T.
+   link                 : "http://www.tammyschirle.org/"
+ - name                 : Pohler
+   first                : D.
+   link                 : "https://www.dionnepohler.com/"
+ - name                 : Baker
+   first                : J.
+   id                   : JBaker
+ - name                 : Mohan
+   first                : A.
+ - name                 : Tedds
+   first                : L. M.
+   link                 : "https://www.lindsaytedds.ca/"
+ - name                 : Gomez
+   first                : R.
+   link                 : "https://www.cirhr.utoronto.ca/people/directories/all-faculty/rafael-gomez"
+ - name                 : Dhuey
+   first                : E.
+   link                 : "https://www.utsc.utoronto.ca/people/dhuey/"   
+ - name                 : Pigeon
+   first                : M.
+   link                 : "https://www.schoolofpublicpolicy.sk.ca/about/faculty/marc-andre-pigeon.php#top"
+ - name                 : Fulton
+   first                : M.
+   link                 : "https://usaskstudies.coop/profiles/profile-Murray-Fulton.php"  
+ - name                 : Stabile
+   first                : M.
+   link                 : "https://www.insead.edu/faculty/mark-stabile"  
+ - name                 : Baker
+   first                : M.
+   link                 : "https://economics.utoronto.ca/index.php/index/person/person/faculty/5"    
+ - name                 : Jones
+   first                : L.
+   link                 : "https://sites.google.com/view/laurenjones/home"    
+ - name                 : Furzer
+   first                : J.
+   link                 : "https://sites.google.com/view/jillfurzer/home" 
+ - name                 : Corak
+   first                : M.
+   link                 : "https://milescorak.com/"
+ - name                 : David
+   first                : K.
+   link                 : "https://carleton.ca/socialwork/people/kendal-david/" 
+ - name                 : Emery
+   first                : H.
+   link                 : "https://www.unb.ca/faculty-staff/directory/arts-fr-political-science/emery-herb.html"  
+ - name                 : Forget
+   first                : E.
+   link                 : "https://home.cc.umanitoba.ca/~forget/index.html"
+ - name                 : Halpenny
+   first                : C.
+ - name                 : Robidoux
+   first                : B.
+ - name                 : Simpson
+   first                : W.
+   link                 : "https://umanitoba.ca/faculties/arts/departments/economics/faculty/economics_wayne_simpson.html"
+ - name                 : Stevens
+   first                : H.
+###############################################################################
+# 6. Social Icons##############################################################
+###############################################################################
+social:
+ - name                 : cv
+   link                 : "https://1drv.ms/b/s!Aik0C2CDKQIAgWsgRJPm_5-2utlP"
+ - name                 : linkedin
+   link                 : "https://www.linkedin.com/in/kourtneykoebel"
+   square               : true
+ - name                 : ideas-repec
+   link                 : "https://ideas.repec.org/f/pko919.html"
+ - name                 : google-scholar
+   link                 : "https://scholar.google.ca/citations?user=FU6FQWEAAAAJ"
+   square               : true
+ - name                 : academia
+   link                 : "https://utoronto.academia.edu/KourtneyKoebel"
+   square               : true
+ - name                 : orcid
+   link                 : "https://orcid.org/0000-0001-6986-4761"
+   square               : true
+ - name                 : researchgate
+   link                 : "https://www.researchgate.net/profile/Kourtney_Koebel"
+   square               : true
+###############################################################################
+# 7a Profile Information ######################################################
+###############################################################################
+profile:
+ name                  : "Kourtney Koebel"
+ position              : "Postdoctoral Fellow"
+ email                 : "kourtney.koebel"
+ email_domain          : "utoronto.ca"
+ email_alt             : "kourtney.koebel"
+ email_altdomain       : "insead.edu"
+ department            : "Stone Centre for the Study of Wealth Inequality"
+ university            : "INSEAD (Europe Campus)"
+ street                : "Boulevard de Constance, Room EW2.12"
+ address               : "Fontainebleau, 77305, France"
+ postnomials           : false
+ iconcolour              : 'black'
+# iconhover               : 'black'
+ ###############################################################################
+ # 7b. List of degrees #########################################################
+ ###############################################################################
+ degrees:
+  - postnomial           : "B.A."
+    university           : "<br />Wilfrid Laurier University"
+    subject              : "Honours Economics & Political Science (High Distinction)"
+    date                 : "2015"
+  - postnomial           : "M.A."
+    university           : "Queen's University"
+    subject              : "Economics"
+    date                 : "2016"
+  - postnomial           : "M.A."
+    university           : "University of Toronto"
+    subject              : "Political Science"
+    date                 : "2017"
+  - postnomial           : "Ph.D."
+    university           : "University of Toronto"
+    subject              : "Industrial Relations & Human Resources"
+    date                 : "2022"
+###############################################################################
+# 8. Home Page Appearance #####################################################
+###############################################################################
+home:
+ fontawesomekit          : "https://kit.fontawesome.com/ed7d3ad2c5.js"
+ profile                 : true
+ bio                     : true
+ degrees                 : false
+ breadcrumbs             : true
+ email                   : true
+ email_alt               : true
+ email_button            : false
+ footer                  : true
+ recent_work             : true
+ recent_work_date        : '2022-01-01'
+ #recent_work_number      : '5'
+###############################################################################
+# 9. Courses Page Appearance ##################################################
+###############################################################################
+courselist:
+ date                    : true
+ term                    : false
+ code                    : false
+ title                   : true
+ institution             : true
+ role                    : true
+ evaluations             : true
+###############################################################################
+# 10. Social Sharing ##########################################################
+###############################################################################
+share:
+ publication            : false
+ course                 : false
+ post                   : true
+###############################################################################
+# 11. Design/theme parameters #################################################
+###############################################################################
+collections:
+ publications:
+  output: false
+defaults:
+ - scope:
+    path: ""
+    type: "publications"
+   values:
+    layout: "publication"
+permalink: "/blog/:year/:month/:day/:title.html"
+###############################################################################
+# 12. Misc ####################################################################
+###############################################################################
+delimiter            : '&nbsp<b>&middot;</b>&nbsp'
+course_delimiter     : '.'
+course_solutions     : 's'
+google_analytics     : 'G-Z8P4ZXE4BQ'

@@ -1,0 +1,6 @@
+<div class="footer">
+  {% if site.home.footer == true %}{% unless site.profile.footer %}
+  <div class="subcontainer">
+    &copy; {{ site.time | date: '%Y' }} {{ site.profile.name }}. <a href="https://github.com/ygkip">Built by ygkip</a>, using <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://jpswalsh.github.io/academicons/">Academicicons</a>, &amp; <a href="http://getskeleton.com/">Skeleton</a>.{% endunless %}{% endif %}
+  </div>
+</div>

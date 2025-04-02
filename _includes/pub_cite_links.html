@@ -1,0 +1,13 @@
+<!-- This file defines how links are shown when listing publications -->
+      <!-- If the publication has a website, list the url first -->
+      {% if publication.website == true  %} {{ site.delimiter }} <a href="{{ publication.url }}" class="item">Website</a>{% endif%}
+      <!-- Run through all the links in the publication -->
+      {% for item in listedlinks %}
+        <!-- For first item, put the delimeter to the left, for all items put one to the right, unless it's the last one -->
+        {% if forloop.first %}{{ site.delimiter }}{% endif %} <a href="{{ item.url }}" class="item">{{ item.title }}</a> {% unless forloop.last %}{{ site.delimiter }}{% endunless %}
+      {% endfor %}
+      {% if publication.medialist == true %}
+        {% for item in site.data.media %}
+          {% if item.shortname == publication.shortname %}<a href="{{ item.link }}" class="item">{{ item.publication }}</a>{% endif %}
+        {% endfor %}
+      {% endif %}

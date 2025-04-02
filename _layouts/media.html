@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% assign sorted = site.data.media | sort: 'date' | reverse %}
+
+<div class="row">
+  <div class="twelve columns">
+    {% for item in site.mediacategories %}
+      {% assign mediacategory = item.medium | downcase %}
+      {% if item.long %}
+        <h4>{{ item.long }}</h4>
+        <hr/>
+      {% else %}
+        <h4>{{ item.medium}}</h4>
+        <hr/>
+      {% endif %}
+      <p>
+        {% for media in sorted %}
+          {% assign medium = media.medium | downcase %}
+          {% if medium == mediacategory %}
+            {% include medialinks.html %}
+          {% endif %}
+        {% endfor %}
+      </p>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<!-- This file controls how authors are listed. It's contents can be copy and pasted in to custom publicaiton formats if they require different ways of listing authors -->
+      {% if publication.authorlist %}
+      <!-- Use authorlist defined in publication instead of authors defined in config -->
+        {{ publication.authorlist }}
+      {% else %}
+        {% for item in publication.coauthors %}
+        <!-- Use authors defined in config, run through each author in publication -->
+          {% assign author = item.name %}
+          {% unless forloop.last %}
+          <!-- Process for listing all authors except first author -->
+            {% for item in coauthors %}
+              {% if item.id %}
+                  {% assign rohtua = item.id %}
+              {% else %}
+                  {% assign rohtua = item.name %}
+              {% endif %}
+            <!-- Run through list of authors in config, if the present author in the publication is the same as the present author of the config, list them -->
+              {% if author == rohtua %}
+              <!-- Write website link if they have one -->
+                {% if item.link %}<a href="{{ item.link }}" class="document">{% endif %}
+                  {{ item.name}}, {{ item.first }},
+                {% if item.link %}</a>{% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endunless %}
+          {% if forloop.last %}
+          <!-- Process for final author (adding the &) -->
+            {% for item in coauthors %}
+              {% if item.id %}
+                  {% assign rohtua = item.id %}
+              {% else %}
+                  {% assign rohtua = item.name %}
+              {% endif %}
+              {% if author == rohtua %}
+                & {% if item.link %}<a href="{{ item.link }}" class="document">{% endif %}
+                  {{ item.name}}, {{ item.first }}
+                {% if item.link %}</a>{% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}

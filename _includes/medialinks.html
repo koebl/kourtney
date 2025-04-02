@@ -1,0 +1,4 @@
+<p>
+  {% if media.publication %}<b>{{ media.publication }}:</b>{% endif %}
+  {% if media.link %}<a href="{{ media.link }}" class="document">{% endif %}{{ media.title }}{% if media.link %}</a>{% endif %}{% if media.authors %} ({{ media.authors }}){% endif %}, {{ media.date | date: "%B %e, %Y" }}.
+</p>

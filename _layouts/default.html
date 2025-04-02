@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.profile.name }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <script src="{{ site.home.fontawesomekit }}"></script>
+    {% if page.headpic %}
+      <style>.headpic {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/assets/img/headpic/{{ page.headpic }}.jpg");}</style>
+    {% else %}
+    <style>.headpic {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/assets/img/headpic/{{ page.title }}.jpg");}</style>
+    {% endif %}
+    
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

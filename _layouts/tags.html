@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="ten columns">
+    <h4>Posts by Tag</h4>
+    <hr />
+    {% for tag in site.tags %}
+      <h4 id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</h4>
+      <table>
+        {% for post in tag[1] %}
+          <tr>
+            <td>{{ post.date | date: "%B %e, %Y" }}</td>
+            <td><a href="{{ post.url }}">{{ post.long }}</a></td>
+            <td>{% for category in post.categories %}<a href="{{site.baseurl}}/blog/categories/#{{ category|slugize }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endfor %}
+  </div>
+  <div class="two columns">
+    <h4>Tags</h4>
+    {% for tag in site.tags %}
+      <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a><br>
+    {% endfor %}
+  </div>
+</div>

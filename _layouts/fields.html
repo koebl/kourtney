@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign sorted = site.papers | sort: 'date' | reverse %}
+
+<div class="row">
+  <div class="twelve columns">
+    {% for item in site.paperfield %}
+      {% assign paperfield = item.field | downcase %}
+      {% if item.long %}
+        <h4>{{ item.long }}</h4>
+        <hr/>
+      {% else %}
+      <h4>{{ item.field }}</h4>
+      <hr/>
+    {% endif %}
+    {% for paper in sorted %}
+      {% assign field = paper.field | downcase %}
+      {% if field == paperfield %}
+        {% include researchlinks.html %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </div>
+</div>
