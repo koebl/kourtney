@@ -1,5 +1,0 @@
-      <!-- Write publication year from publication date, if it exists -->
-      {% if publication.date %}({{ publication.date | date: "%Y"}}).{% endif %}
-      <!-- Write publication title if it exists, make it a link to the document if publication.document exists -->
-      {% if publication.document %}<a href="{{ publication.document }}" class="document">{% endif %}{{ publication.title }}.{% if publication.document %}</a>{% endif %}
-      {% if publication.journal %}<i>{{ publication.journal }}</i>{% endif %}{% if publication.issue %}, {{ publication.issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}.<br>

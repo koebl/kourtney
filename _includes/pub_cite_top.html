@@ -1,9 +1,0 @@
-<!-- This file contains the top part of pub_cite.html -->
-<!-- Alias for site.coauthors -->
-{% assign coauthors = site.coauthors %}
-<!-- Array that contains only links for the publication defined as listed  -->
-{% assign listedlinks = publication.links | where:'listing', 'true' %}
-
-<p>
-  <details>
-    <summary class="{{ publication.shortname }}">
