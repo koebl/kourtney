@@ -12,10 +12,16 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       const coauthorName = typeof coauthor === 'string' ? coauthor : coauthor.name
       const coauthorId = typeof coauthor === 'object' ? coauthor.id : null
       
-      const authorInfo = coauthors.find(a => 
-        a.name === coauthorName || 
-        (coauthorId && a.id === coauthorId)
-      )
+      // First try to find by ID (if the coauthor string matches an ID)
+      let authorInfo = coauthors.find(a => a.id === coauthorName)
+      
+      // If not found by ID, try by name
+      if (!authorInfo) {
+        authorInfo = coauthors.find(a => 
+          a.name === coauthorName || 
+          (coauthorId && a.id === coauthorId)
+        )
+      }
       
       let displayName
       if (authorInfo) {

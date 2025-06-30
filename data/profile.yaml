@@ -98,6 +98,7 @@ courseTypes:
 coauthors:
   - name: "Koebel"
     first: "K."
+    link: "https://kourtneykoebel.ca"
   - name: "Boadway"
     first: "R."
     link: "https://www.econ.queensu.ca/people/faculty/robin-boadway"
@@ -113,6 +114,7 @@ coauthors:
   - name: "Baker"
     first: "J."
     id: "JBaker"
+    link: "https://sites.google.com/view/justinbakereconomics/"
   - name: "Mohan"
     first: "A."
   - name: "Tedds"
