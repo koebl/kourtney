@@ -1,85 +1,106 @@
 import React from 'react'
 
 function PublicationItem({ publication, coauthors, compact = false }) {
-  const formatAuthors = () => {
+  const formatAuthorsAPA = () => {
     if (!publication.coauthors || publication.coauthors.length === 0) {
       return null
     }
 
-    const authorList = publication.coauthors.map(coauthor => {
+    const authorList = publication.coauthors.map((coauthor, index) => {
+      // Handle both string and object coauthors
+      const coauthorName = typeof coauthor === 'string' ? coauthor : coauthor.name
+      const coauthorId = typeof coauthor === 'object' ? coauthor.id : null
+      
       const authorInfo = coauthors.find(a => 
-        a.name === coauthor.name || 
-        (coauthor.id && a.id === coauthor.id)
+        a.name === coauthorName || 
+        (coauthorId && a.id === coauthorId)
       )
       
+      let displayName
       if (authorInfo) {
-        const displayName = authorInfo.first ? `${authorInfo.first} ${authorInfo.name}` : authorInfo.name
-        
-        if (authorInfo.link) {
-          return (
-            <a 
-              key={coauthor.name} 
-              href={authorInfo.link} 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              {displayName}
-            </a>
-          )
-        }
-        
-        return <span key={coauthor.name}>{displayName}</span>
+        // Format as "Last, F." for APA
+        displayName = authorInfo.first ? `${authorInfo.name}, ${authorInfo.first}` : authorInfo.name
+      } else {
+        displayName = coauthorName
       }
       
-      return <span key={coauthor.name}>{coauthor.name}</span>
+      // Check if this author has a link
+      const hasLink = authorInfo && authorInfo.link
+      
+      if (hasLink) {
+        return (
+          <a 
+            key={coauthorName} 
+            href={authorInfo.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            {displayName}
+          </a>
+        )
+      }
+      
+      return <span key={coauthorName}>{displayName}</span>
     })
 
     return (
       <span className="authors">
-        with {authorList.reduce((prev, curr, i) => {
+        {authorList.reduce((prev, curr, i) => {
           if (i === 0) return [curr]
-          if (i === authorList.length - 1) return [...prev, ' & ', curr]
+          if (i === authorList.length - 1 && authorList.length > 1) {
+            return [...prev, ', & ', curr]
+          }
           return [...prev, ', ', curr]
         }, [])}
       </span>
     )
   }
 
-  const formatCitation = () => {
-    const parts = []
+  const formatCitationAPA = () => {
+    const year = new Date(publication.date).getFullYear()
     
-    if (publication.journal) {
-      parts.push(<em key="journal">{publication.journal}</em>)
+    // Format based on publication type
+    if (publication.type === 'Journal Article') {
+      // Journal: Title. Journal Name, volume(issue), pages.
+      return (
+        <>
+          ({year}). {publication.title}. <em>{publication.journal}</em>
+          {publication.issue && `, ${publication.issue}`}
+          {publication.pages && `, ${publication.pages}`}.
+        </>
+      )
+    } else if (publication.type === 'Book Chapter') {
+      // Book Chapter: Title. In Editor (Ed.), Book title (pp. pages). Publisher.
+      return (
+        <>
+          ({year}). {publication.title}. 
+          {publication.volume && <> In <em>{publication.volume}</em></>}
+          {publication.editors && <> (Eds. {publication.editors})</>}
+          {publication.pages && <> (pp. {publication.pages})</>}
+          {publication.publisher && <>. {publication.publisher}</>}
+          {publication.city && <>, {publication.city}</>}.
+        </>
+      )
+    } else if (publication.type === 'Working Paper') {
+      // Working Paper: Title. Journal/Series Name.
+      return (
+        <>
+          ({year}). {publication.title}. 
+          {publication.journal && <><em>{publication.journal}</em></>}
+          {publication.issue && <>, {publication.issue}</>}.
+        </>
+      )
+    } else {
+      // Other Publication: Title. Journal Name, issue.
+      return (
+        <>
+          ({year}). {publication.title}. 
+          {publication.journal && <><em>{publication.journal}</em></>}
+          {publication.issue && <>, {publication.issue}</>}
+          {publication.pages && <>, {publication.pages}</>}.
+        </>
+      )
     }
-    
-    if (publication.volume) {
-      parts.push(<span key="volume">in <em>{publication.volume}</em></span>)
-    }
-    
-    if (publication.editors) {
-      parts.push(<span key="editors">eds. {publication.editors}</span>)
-    }
-    
-    if (publication.issue) {
-      parts.push(<span key="issue">{publication.issue}</span>)
-    }
-    
-    if (publication.pages) {
-      parts.push(<span key="pages">{publication.pages}</span>)
-    }
-    
-    if (publication.publisher) {
-      parts.push(<span key="publisher">{publication.publisher}</span>)
-    }
-    
-    if (publication.city) {
-      parts.push(<span key="city">{publication.city}</span>)
-    }
-    
-    return parts.reduce((prev, curr, i) => {
-      if (i === 0) return [curr]
-      return [...prev, ', ', curr]
-    }, [])
   }
 
   return (
@@ -95,11 +116,9 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       </h3>
       
       <div className="publication-meta">
-        {formatAuthors()}
-        {formatAuthors() && formatCitation().length > 0 && <span className="separator"> • </span>}
-        <span className="citation">{formatCitation()}</span>
-        {formatCitation().length > 0 && <span className="separator"> • </span>}
-        <span className="year">{new Date(publication.date).getFullYear()}</span>
+        <span className="apa-citation">
+          {formatAuthorsAPA()} {formatCitationAPA()}
+        </span>
       </div>
 
       {!compact && publication.abstract && (

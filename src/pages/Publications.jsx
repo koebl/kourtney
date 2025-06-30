@@ -91,7 +91,7 @@ function Publications() {
                 <div className="publication-list">
                   {pubs.map(pub => (
                     <PublicationItem 
-                      key={pub.shortname} 
+                      key={pub.id} 
                       publication={pub}
                       coauthors={profileData.coauthors}
                     />
