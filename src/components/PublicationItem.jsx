@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function PublicationItem({ publication, coauthors, compact = false }) {
+  const [showAbstract, setShowAbstract] = useState(false)
   const formatAuthorsAPA = () => {
     if (!publication.coauthors || publication.coauthors.length === 0) {
       return null
@@ -64,7 +65,7 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       // Journal: Title. Journal Name, volume(issue), pages.
       return (
         <>
-          ({year}). {publication.title}. <em>{publication.journal}</em>
+          ({year}). {publication.title.trim()}. <em>{publication.journal}</em>
           {publication.issue && `, ${publication.issue}`}
           {publication.pages && `, ${publication.pages}`}.
         </>
@@ -73,9 +74,13 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       // Book Chapter: Title. In Editor (Ed.), Book title (pp. pages). Publisher.
       return (
         <>
-          ({year}). {publication.title}. 
-          {publication.volume && <> In <em>{publication.volume}</em></>}
-          {publication.editors && <> (Eds. {publication.editors})</>}
+          ({year}). {publication.title.trim()}
+          {publication.volume && (
+            <>
+              . In {publication.editors && <>{publication.editors} (Eds.), </>}
+              <em>{publication.volume}</em>
+            </>
+          )}
           {publication.pages && <> (pp. {publication.pages})</>}
           {publication.publisher && <>. {publication.publisher}</>}
           {publication.city && <>, {publication.city}</>}.
@@ -85,8 +90,8 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       // Working Paper: Title. Journal/Series Name.
       return (
         <>
-          ({year}). {publication.title}. 
-          {publication.journal && <><em>{publication.journal}</em></>}
+          ({year}). {publication.title.trim()}
+          {publication.journal && <>. <em>{publication.journal}</em></>}
           {publication.issue && <>, {publication.issue}</>}.
         </>
       )
@@ -94,8 +99,8 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       // Other Publication: Title. Journal Name, issue.
       return (
         <>
-          ({year}). {publication.title}. 
-          {publication.journal && <><em>{publication.journal}</em></>}
+          ({year}). {publication.title.trim()}
+          {publication.journal && <>. <em>{publication.journal}</em></>}
           {publication.issue && <>, {publication.issue}</>}
           {publication.pages && <>, {publication.pages}</>}.
         </>
@@ -122,7 +127,18 @@ function PublicationItem({ publication, coauthors, compact = false }) {
       </div>
 
       {!compact && publication.abstract && (
-        <p className="abstract">{publication.abstract}</p>
+        <>
+          <button 
+            className="abstract-toggle"
+            onClick={() => setShowAbstract(!showAbstract)}
+            aria-expanded={showAbstract}
+          >
+            {showAbstract ? '− Hide Abstract' : '+ Show Abstract'}
+          </button>
+          {showAbstract && (
+            <p className="abstract">{publication.abstract}</p>
+          )}
+        </>
       )}
 
       {!compact && publication.links && publication.links.length > 0 && (

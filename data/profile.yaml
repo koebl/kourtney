@@ -67,10 +67,14 @@ social:
 
 publicationTypes:
   - type: "Working Paper"
+    heading: "Working Papers"
   - type: "Journal Article"
+    heading: "Journal Articles"
   - type: "Book Chapter"
+    heading: "Book Chapters"
     custom: true
   - type: "Other Publication"
+    heading: "Other Publications"
 
 mediaCategories:
   - "Opinion Editorials and Other Commentary"

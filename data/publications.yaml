@@ -1,6 +1,6 @@
 publications:
   - id: bakerkoebelstabile2024
-    title: The impact of family tax benefits on children's health and educational outcomes
+    title: The impact of family tax benefits on children’s health and educational outcomes
     type: Journal Article
     field: Public Policy
     date: 2024-01-02
@@ -30,6 +30,8 @@ publications:
       https://www.mun.ca/economics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/economics/media-library/more/events/boadway-care-memorial.pdf
     abstract: |
       We outline the case for a basic income guarantee and characterize the alternative forms it could take. We argue that implementing such a program in the Canadian federation should involve collaboration between federal and provincial governments, with each level having some discretion over the size of the guarantee within their jurisdictions. We draw on tax harmonization arrangements in Canada for guidance about how such collaboration could be managed. We propose a basic income guarantee model for Canada that is sufficient to move all persons out of poverty, that is implemented through the tax system, and that is affordable. Our proposal is virtually self-financing in the sense that it redistributes existing federal and provincial transfers and does not require any tax increases. We illustrate our basic income guarantee program using simulations based on Statistics Canada’s SPSD/M model.
+    publisher: Memorial University
+    city: St. John’s
     coauthors:
       - Boadway
       - Cuff
@@ -55,13 +57,18 @@ publications:
 
   - id: covidalb_chap
     title: |
-      Gender disparities in the labour market? Examining the COVID-19 Pandemic in Alberta
+      Gender disparities in the labour market? Examining the COVID-19 pandemic in Alberta
     type: Book Chapter
     field: Social Policy
     date: 2021-01-01
     pages: 48-69
     document: |
       https://www.policyschool.ca/wp-content/uploads/2021/11/Albertas-Economic-and-Fiscal-Future.pdf
+    volume: Alberta’s Economic and Fiscal Future
+    editors: R. Mansell & K. J. McKenzie
+    series: The School of Public Policy Publications
+    publisher: University of Calgary Press
+    city: Calgary
     coauthors:
       - JBaker
       - Koebel
@@ -106,7 +113,7 @@ publications:
 
   - id: eevcovid
     title: |
-      Public Policy in a Time of Crisis: A Framework for Evaluating Canada’s COVID-19 Income Support Programs
+      Public policy in a time of crisis: A framework for evaluating Canada’s COVID-19 income support programs
     type: Journal Article
     field: Canadian Policy
     date: 2021-06-15
@@ -116,7 +123,7 @@ publications:
     doi: 10.3138/cpp.2020-117
     document: "https://www.utpjournals.press/doi/full/10.3138/cpp.2020-117"
     abstract: |
-      Income support programs introduced for workers during the first wave of coronavirus disease 2019 (COVID-19) lockdowns faced criticism for their negative labour supply effects. We propose that these concerns about work disincentives are embedded in restrictive assumptions about work and led to suboptimal design of crisis support policies. We describe a framework for analyzing alternative crisis Income Support Programs predicated on more realistic assumptions of labour markets and human motivation. Our framework proposes that balancing efficiency, equity, and voice objectives should be the goal of crisis labour market policies. We argue that adoption of a basic income targeted toward low-income workers, in combination with Canada’s pre-existing Employment Insurance program, would have balanced efficiency, equity, and voice better than the combination of the Canada Emergency Response Benefit and Canada Emergency Wage Subsidy. A targeted basic income would also have been more effective at achieving stated public health objectives.
+      Income support programs introduced for workers during the first wave of coronavirus disease 2019 (COVID-19) lockdowns faced criticism for their negative labour supply effects. We propose that these concerns about work disincentives are embedded in restrictive assumptions about work and led to suboptimal design of crisis support policies. We describe a framework for analyzing alternative crisis income support programs predicated on more realistic assumptions of labour markets and human motivation. Our framework proposes that balancing efficiency, equity, and voice objectives should be the goal of crisis labour market policies. We argue that adoption of a basic income targeted toward low-income workers, in combination with Canada’s pre-existing Employment Insurance program, would have balanced efficiency, equity, and voice better than the combination of the Canada Emergency Response Benefit and Canada Emergency Wage Subsidy. A targeted basic income would also have been more effective at achieving stated public health objectives.
     coauthors:
       - Koebel
       - Pohler
@@ -125,7 +132,7 @@ publications:
 
   - id: genderalb
     title: |
-      Gender disparities in the labour market? Examining the COVID-19 Pandemic in Alberta
+      Gender disparities in the labour market? Examining the COVID-19 pandemic in Alberta
     type: Journal Article
     field: Canadian Policy
     date: 2021-06-09
@@ -136,7 +143,7 @@ publications:
     document: |
       https://www.policyschool.ca/wp-content/uploads/2021/06/TEG88_Gender-Disparities-Labour-Market_Baker-et-al.pdf
     abstract: |
-      The initial wave of the COVID-19 Pandemic generated large labour market disparities between men and women; however, in Alberta these differences did not persist beyond summer 2020. Instead, the pandemic continues to persistently and negatively affect the labour market patterns of parents with young children, regardless of the parent’s gender. This finding should guide policy-makers when planning for the province’s economic recovery. Using data from Alberta up to and including the December 2020 release of the Labour Force Survey, we do not find evidence that the “she-cession” continued into Alberta’s second round of health restriction measures. Instead, we find that school transitions to virtual learning, daycare closures, and parents opting for online learning resulted in profound and persistent effects on workers with young children compared to workers without children.
+      The initial wave of the COVID-19 pandemic generated large labour market disparities between men and women; however, in Alberta these differences did not persist beyond summer 2020. Instead, the pandemic continues to persistently and negatively affect the labour market patterns of parents with young children, regardless of the parent’s gender. This finding should guide policy-makers when planning for the province’s economic recovery. Using data from Alberta up to and including the December 2020 release of the Labour Force Survey, we do not find evidence that the “she-cession” continued into Alberta’s second round of health restriction measures. Instead, we find that school transitions to virtual learning, daycare closures, and parents opting for online learning resulted in profound and persistent effects on workers with young children compared to workers without children.
     coauthors:
       - JBaker
       - Koebel
@@ -209,6 +216,11 @@ publications:
     pages: 193-221
     document: |
       https://www.cornellpress.cornell.edu/book/9780913447192/reimagining-the-governance-of-work-and-employment/#bookTabs=1
+    volume: Reimagining the Regulation and Governance of Work
+    editors: D. Pohler
+    series: Labor and Employment Relations Association Research Volume
+    publisher: Cornell University Press
+    city: Ithaca
     coauthors:
       - Koebel
       - Pohler
@@ -276,7 +288,12 @@ publications:
     doi: 10.2307/j.ctvdtpjc7.9
     document: "https://www.jstor.org/stable/j.ctvdtpjc7.9"
     abstract: |
-      'We propose mechanism for implementing a two-stage harmonized Basic Income Guarantee with federal and provincial components. In Stage One, the federal government replaces its refundable and nonrefundable tax credits with an income-tested basic income delivered through the income tax system. The reform is revenue-neutral. In Stage Two, each province decides whether to implement a provincial basic income guarantee that is harmonized with the federal one but allows province-specific basic income levels. The provincial basic income replaces provincial refundable and nonrefundable tax credits as well as welfare and disability transfers, and is also revenue-neutral. All social services and contributory social insurance programs remain intact. An illustrative calculation using Statistical Canada’s SPSD/M model shows the financial feasibility of a national BIG of $20,000 per adult adjusted for family size with a benefit reduction rate of
+      'We propose mechanism for implementing a two-stage harmonized Basic income Guarantee with federal and provincial components. In Stage One, the federal government replaces its refundable and nonrefundable tax credits with an income-tested basic income delivered through the income tax system. The reform is revenue-neutral. In Stage Two, each province decides whether to implement a provincial basic income guarantee that is harmonized with the federal one but allows province-specific basic income levels. The provincial basic income replaces provincial refundable and nonrefundable tax credits as well as welfare and disability transfers, and is also revenue-neutral. All social services and contributory social insurance programs remain intact. An illustrative calculation using Statistical Canada’s SPSD/M model shows the financial feasibility of a national BIG of $20,000 per adult adjusted for family size with a benefit reduction rate of
+    volume: Federalism and the Welfare State in a Multicultural World
+    editors: E. Goodyear-Grant, R. Johnston, W. Kymlicka, & J. Myles
+    series: "Queen's Policy Studies Series"
+    publisher: "McGill-Queen's University Press"
+    city: Kingston
     coauthors:
       - Boadway
       - Cuff

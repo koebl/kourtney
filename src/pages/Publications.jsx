@@ -87,7 +87,7 @@ function Publications() {
 
             return (
               <section key={typeConfig.type} className="publication-type">
-                <h2>{typeConfig.type}</h2>
+                <h2>{typeConfig.heading || typeConfig.type}</h2>
                 <div className="publication-list">
                   {pubs.map(pub => (
                     <PublicationItem 
