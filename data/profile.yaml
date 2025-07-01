@@ -3,15 +3,13 @@
 
 profile:
   name: "Kourtney Koebel"
-  position: "Postdoctoral Fellow"
+  position: "Assistant Professor"
   email: "kourtney.koebel"
   email_domain: "utoronto.ca"
-  email_alt: "kourtney.koebel"
-  email_altdomain: "insead.edu"
-  department: "Stone Centre for the Study of Wealth Inequality"
-  university: "INSEAD (Europe Campus)"
-  street: "Boulevard de Constance, Room EW2.12"
-  address: "Fontainebleau, 77305, France"
+  department: "Centre for Industrial Relations and Human Resources"
+  university: "University of Toronto"
+  street: "121 St. George St."
+  address: "Toronto, ON, M5S 2E8"
   
 degrees:
   - postnomial: "B.A."
