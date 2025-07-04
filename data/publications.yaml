@@ -1,0 +1,319 @@
+publications:
+  - id: bakerkoebelstabile2024
+    title: The impact of family tax benefits on children’s health and educational outcomes
+    type: Journal Article
+    field: Public Policy
+    date: 2024-01-02
+    journal: American Economic Association Papers & Proceedings
+    issue: 114
+    pages: 429–434
+    document: "https://www.aeaweb.org/articles?id=10.1257/pandp.20241105"
+    abstract: |
+      We leverage recent income support reforms for families with children in Canada to investigate the impact of child benefits on child health and educational outcomes. Using administrative school data from British Columbia linked to parents' tax files, we find evidence that increased family benefit generosity improved children's mental health, but little evidence of any change in test scores from standardized exams. Our results suggest that most of the mental health effect is concentrated among girls and that relative improvements in mental health were larger among children in higher-income families.
+    coauthors:
+      - Baker
+      - Koebel
+      - Stabile
+    links:
+      - title: CEPR Working Paper
+        url: "https://cepr.org/publications/dp18765"
+      - title: Replication Files
+        url: "https://www.openicpsr.org/openicpsr/project/200901/version/V1/view"
+
+  - id: bigprospects
+    title: "Implementing a basic income guarantee in Canada: Prospects and problems"
+    type: Working Paper
+    field: Canadian Policy
+    date: 2018-11-14
+    journal: Collaborative Applied Research in Economics (CARE) Working Papers
+    document: |
+      https://www.mun.ca/economics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/economics/media-library/more/events/boadway-care-memorial.pdf
+    abstract: |
+      We outline the case for a basic income guarantee and characterize the alternative forms it could take. We argue that implementing such a program in the Canadian federation should involve collaboration between federal and provincial governments, with each level having some discretion over the size of the guarantee within their jurisdictions. We draw on tax harmonization arrangements in Canada for guidance about how such collaboration could be managed. We propose a basic income guarantee model for Canada that is sufficient to move all persons out of poverty, that is implemented through the tax system, and that is affordable. Our proposal is virtually self-financing in the sense that it redistributes existing federal and provincial transfers and does not require any tax increases. We illustrate our basic income guarantee program using simulations based on Statistics Canada’s SPSD/M model.
+    publisher: Memorial University
+    city: St. John’s
+    coauthors:
+      - Boadway
+      - Cuff
+      - Koebel
+
+  - id: bigrejoinder
+    title: |
+      Can self-financing redeem the basic income guarantee? Disincentives, efficiency costs, tax burdens, and attitudes: A rejoinder
+    type: Journal Article
+    field: Canadian Policy
+    date: 2018-12-01
+    journal: Canadian Public Policy
+    issue: 44(4)
+    pages: 447-457
+    doi: 10.3138/cpp.2018-044
+    document: "https://utpjournals.press/doi/abs/10.3138/cpp.2018-044"
+    abstract: |
+      We respond to concerns raised by Kesselman (2018) about our illustrative proposal on how to finance and implement a basic income guarantee (BIG) in Canada (Boadway, Cuff, and Koebel forthcoming). We demonstrate how our proposal could be adjusted to mitigate Kesselman’s main concern of high marginal effective tax rates (METRs) and argue that the incentive effects, redistribution consequences, and public opposition are not as detrimental as Kesselman suggests. We also show that Kesselman’s proposed alternate—an expanded Working Income Tax Benefit—could be incorporated into our BIG but would result in higher METRs and efficiency losses at some incomes.
+    coauthors:
+      - Boadway
+      - Cuff
+      - Koebel
+
+  - id: covidalb_chap
+    title: |
+      Gender disparities in the labour market? Examining the COVID-19 pandemic in Alberta
+    type: Book Chapter
+    field: Social Policy
+    date: 2021-01-01
+    pages: 48-69
+    document: |
+      https://www.policyschool.ca/wp-content/uploads/2021/11/Albertas-Economic-and-Fiscal-Future.pdf
+    volume: Alberta’s Economic and Fiscal Future
+    editors: R. Mansell & K. J. McKenzie
+    series: The School of Public Policy Publications
+    publisher: University of Calgary Press
+    city: Calgary
+    coauthors:
+      - JBaker
+      - Koebel
+      - Tedds
+
+  - id: covidpaper
+    title: |
+      Labor markets in crisis: The double liability of low-wage work during the COVID-19 pandemic
+    type: Journal Article
+    field: Labour Economics
+    date: 2020-11-26
+    journal: "Industrial Relations: A Journal of Economy and Society (Berkeley)"
+    issue: 59(4)
+    pages: 503-531
+    document: "https://onlinelibrary.wiley.com/doi/10.1111/irel.12269"
+    abstract: |
+      We adopt a novel identification strategy to examine the heterogeneous effects of Canada’s COVID‐19 economic shutdown on hours worked across the earnings distribution. Early labor‐market analyses found that workers in the bottom of the earnings distribution experienced a much larger reduction in hours worked than workers in the top of the earnings distribution. Our analysis reveals a double liability of low‐wage work during Canada’s COVID‐19 economic shutdown: while workers in every quintile experienced a large reduction in hours on average, significant increases in hours were only present among workers in the bottom quintile. Implications for crisis income supports are discussed.
+    coauthors:
+      - Koebel
+      - Pohler
+    links:
+      - title: CLEF Working Paper
+        url: "https://clef.uwaterloo.ca/wp-content/uploads/2020/05/CLEF-25_2020-Spring-Summer-Koebel-Pohler.pdf"
+      - title: Replication Files
+        url: "https://1drv.ms/u/s!Aik0C2CDKQIAgXu0z2AUgMurDT2h?e=CQJ7Pd"
+
+  - id: cwbbig
+    title: Expanding the Canada Workers Benefit to design a guaranteed basic income
+    type: Journal Article
+    field: Canadian Policy
+    date: 2019-08-01
+    journal: Canadian Public Policy
+    issue: 45(3)
+    pages: 283-309
+    doi: 10.3138/cpp.2019-016
+    document: "https://www.utpjournals.press/doi/full/10.3138/cpp.2019-016"
+    abstract: |
+      We design a hybrid guaranteed basic income and earnings subsidy for working-age Canadians that addresses federalism and work disincentive concerns associated with a conventional basic income by expanding the Canada Workers Benefit. We cost our program and propose a revenue-neutral financing model by consolidating provincial SA programs and eliminating several federal and provincial tax credits. We simulate the distributional effects of our program and financing on household disposable income across deciles and family types and discuss its impact on marginal effective tax rates and interaction with disability programs. Our program substantially reduces poverty rates among two-parent families and working-age singles and couples without children.
+    coauthors:
+      - Koebel
+      - Pohler
+
+  - id: eevcovid
+    title: |
+      Public policy in a time of crisis: A framework for evaluating Canada’s COVID-19 income support programs
+    type: Journal Article
+    field: Canadian Policy
+    date: 2021-06-15
+    journal: Canadian Public Policy
+    issue: 47(2)
+    pages: 316–333
+    doi: 10.3138/cpp.2020-117
+    document: "https://www.utpjournals.press/doi/full/10.3138/cpp.2020-117"
+    abstract: |
+      Income support programs introduced for workers during the first wave of coronavirus disease 2019 (COVID-19) lockdowns faced criticism for their negative labour supply effects. We propose that these concerns about work disincentives are embedded in restrictive assumptions about work and led to suboptimal design of crisis support policies. We describe a framework for analyzing alternative crisis income support programs predicated on more realistic assumptions of labour markets and human motivation. Our framework proposes that balancing efficiency, equity, and voice objectives should be the goal of crisis labour market policies. We argue that adoption of a basic income targeted toward low-income workers, in combination with Canada’s pre-existing Employment Insurance program, would have balanced efficiency, equity, and voice better than the combination of the Canada Emergency Response Benefit and Canada Emergency Wage Subsidy. A targeted basic income would also have been more effective at achieving stated public health objectives.
+    coauthors:
+      - Koebel
+      - Pohler
+      - Gomez
+      - Mohan
+
+  - id: genderalb
+    title: |
+      Gender disparities in the labour market? Examining the COVID-19 pandemic in Alberta
+    type: Journal Article
+    field: Canadian Policy
+    date: 2021-06-09
+    journal: The School of Public Policy Publications
+    issue: 14(18)
+    pages: 1-35
+    doi: 0.11575/sppp.v14i.72237
+    document: |
+      https://www.policyschool.ca/wp-content/uploads/2021/06/TEG88_Gender-Disparities-Labour-Market_Baker-et-al.pdf
+    abstract: |
+      The initial wave of the COVID-19 pandemic generated large labour market disparities between men and women; however, in Alberta these differences did not persist beyond summer 2020. Instead, the pandemic continues to persistently and negatively affect the labour market patterns of parents with young children, regardless of the parent’s gender. This finding should guide policy-makers when planning for the province’s economic recovery. Using data from Alberta up to and including the December 2020 release of the Labour Force Survey, we do not find evidence that the “she-cession” continued into Alberta’s second round of health restriction measures. Instead, we find that school transitions to virtual learning, daycare closures, and parents opting for online learning resulted in profound and persistent effects on workers with young children compared to workers without children.
+    coauthors:
+      - JBaker
+      - Koebel
+      - Tedds
+
+  - id: covidpaper
+    title: Is there an optimal school starting age?
+    type: Other Publication
+    field: Education Economics
+    date: 2022-04-01
+    journal: IZA World of Labor
+    issue: 247.v2
+    pages: 1-9
+    document: |
+      https://wol.iza.org/uploads/articles/606/pdfs/age-at-school-entry-how-old-is-old-enough.pdf?v=1
+    abstract: |
+      Is there an optimal school starting age? It depends: older children perform better on standardized tests, but evidence of older school starting ages on long-term outcomes is mixed.
+    coauthors:
+      - Koebel
+      - Dhuey
+
+  - id: jonesetal2024
+    title: |
+      The effect of household earnings on child school mental health designations: Evidence from administrative data
+    type: Journal Article
+    field: Health Economics
+    date: 2024-01-01
+    journal: Journal of Human Resources
+    issue: 59
+    pages: S41-S76
+    doi: 10.3368/jhr.1222-12705R2
+    document: "https://muse.jhu.edu/pub/19/article/922813"
+    abstract: |
+      We investigate the impact of household earnings shocks on in-school mental health designations in the context of the Great Recession using propensity score matching and a unique data set of linked administrative educational and tax data. Relative to children who did not experience recessionary earnings losses, the rate of new mental health designations among children with earnings losses was 0.5 percentage points higher (20 percent) during the recession. The effect of experiencing a recessionary earnings loss is persistent and grows, especially among children who experienced the loss when they were aged 10 or younger.
+    coauthors:
+      - Jones
+      - Stabile
+      - Koebel
+      - Furzer
+    links:
+      - title: CEPR Working Paper
+        url: "https://cepr.org/publications/dp18369"
+      - title: Replication Files
+        url: "https://jhr.uwpress.org/content/early/2023/10/29/jhr.1222-12705R2/tab-supplemental"
+
+  - id: koebelstabile2024
+    title: |
+      Evaluating the effects of the 2021 expansion of the Child Tax Credit: The international comparative context
+    type: Journal Article
+    field: Public Policy
+    date: 2024-01-03
+    journal: The ANNALS of the American Academy of Social and Political Sciences
+    issue: 710(1)
+    pages: 36-56
+    document: "https://journals.sagepub.com/doi/full/10.1177/00027162241258837"
+    abstract: |
+      We provide an overview of child benefit programs in high-income countries, particularly in comparison to the 2019 and expanded 2021 U.S. Child Tax Credit (CTC). Most countries included in our review provide child benefits that are more generous than the 2019 (and current) U.S. CTC, aligning more closely to the parameters of the now-expired 2021 expanded CTC. We show that while the expanded U.S. CTC was in effect, the U.S. significantly improved its ranking within the Organisation for Economic Co-operation and Development (OECD) in terms of lowering child poverty rates and the effectiveness of its redistribution system on poverty alleviation. Our cross-country analysis further reveals that the refundable and monthly payment structure of the expanded 2021 CTC was in keeping with prevailing models of child benefits internationally.
+    coauthors:
+      - Koebel
+      - Stabile
+    links:
+      - title: Supplementary Materials
+        url: "https://1drv.ms/b/s!Aik0C2CDKQIAgdUTbxTyS3F1ja-0UA?e=pDOzB6"
+
+  - id: lerabig
+    title: Basic income
+    type: Book Chapter
+    field: Social Policy
+    date: 2020-01-01
+    pages: 193-221
+    document: |
+      https://www.cornellpress.cornell.edu/book/9780913447192/reimagining-the-governance-of-work-and-employment/#bookTabs=1
+    volume: Reimagining the Regulation and Governance of Work
+    editors: D. Pohler
+    series: Labor and Employment Relations Association Research Volume
+    publisher: Cornell University Press
+    city: Ithaca
+    coauthors:
+      - Koebel
+      - Pohler
+
+  - id: peibasicinc
+    title: A proposal for a guaranteed basic income in Prince Edward Island
+    type: Other Publication
+    field: Public Policy
+    date: 2023-11-20
+    document: |
+      https://static1.squarespace.com/static/6414a3fa59a0c71ae167601e/t/655b876f637e8943541f3241/1700497284380/final-report
+    coauthors:
+      - Boadway
+      - Corak
+      - David
+      - Emery
+      - Forget
+      - Halpenny
+      - Koebel
+      - Robidoux
+      - Simpson
+      - Stevens
+
+  - id: shoyama_policy
+    title: "Targeted basic income: An equitable policy response to COVID-19"
+    type: Other Publication
+    field: Labour Economics
+    date: 2020-03-01
+    journal: Johnson Shoyama Graduate School (JSGS) Policy Brief
+    document: |
+      https://www.schoolofpublicpolicy.sk.ca/documents/research/policy-briefs/jsgs-policybriefs-targeted-basic-income-covid-19.pdf
+    coauthors:
+      - Pohler
+      - Koebel
+      - Gomez
+      - Pigeon
+      - Fulton
+
+  - id: ucbmothers
+    title: |
+      The differential impact of universal child benefits on the labour supply of married and single mothers
+    type: Journal Article
+    field: Labour Economics
+    date: 2016-03-01
+    journal: Canadian Public Policy
+    issue: 42(1)
+    pages: 49-64
+    doi: 10.3138/cpp.2015-049
+    document: "https://utpjournals.press/doi/abs/10.3138/cpp.2015-049"
+    abstract: |
+      We examine the effects of the Universal Child Care Benefit on the labour supply of mothers. The benefit has a significant negative effect on the labour supply of legally married mothers, reducing their likelihood of participation in the labour force by 1.4 percentage points and hours worked by nearly one hour per week. In contrast, the likelihood of participation by divorced mothers rises by 2.8 percentage points when receiving the benefit and does not affect hours worked. Moreover, the benefit does not have a statistically significant effect on the participation of common-law married mothers or never-married mothers.
+    coauthors:
+      - Koebel
+      - Schirle
+    links:
+      - title: LCERPA Working Paper
+        url: "http://www.lcerpa.org/public/papers/LCERPA_2015_11.pdf"
+
+  - id: welfaremulticultural
+    title: Designing a basic income guarantee for Canada
+    type: Book Chapter
+    field: Canadian Policy
+    date: 2019-01-01
+    pages: 101-129
+    doi: 10.2307/j.ctvdtpjc7.9
+    document: "https://www.jstor.org/stable/j.ctvdtpjc7.9"
+    abstract: |
+      'We propose mechanism for implementing a two-stage harmonized Basic income Guarantee with federal and provincial components. In Stage One, the federal government replaces its refundable and nonrefundable tax credits with an income-tested basic income delivered through the income tax system. The reform is revenue-neutral. In Stage Two, each province decides whether to implement a provincial basic income guarantee that is harmonized with the federal one but allows province-specific basic income levels. The provincial basic income replaces provincial refundable and nonrefundable tax credits as well as welfare and disability transfers, and is also revenue-neutral. All social services and contributory social insurance programs remain intact. An illustrative calculation using Statistical Canada’s SPSD/M model shows the financial feasibility of a national BIG of $20,000 per adult adjusted for family size with a benefit reduction rate of
+    volume: Federalism and the Welfare State in a Multicultural World
+    editors: E. Goodyear-Grant, R. Johnston, W. Kymlicka, & J. Myles
+    series: "Queen's Policy Studies Series"
+    publisher: "McGill-Queen's University Press"
+    city: Kingston
+    coauthors:
+      - Boadway
+      - Cuff
+      - Koebel
+    links:
+      - title: QED Working Paper
+        url: "https://www.econ.queensu.ca/sites/econ.queensu.ca/files/qed_wp_1371.pdf"
+
+  - id: witb
+    title: |
+      The effect of an unconditional government income transfer on the labour supply of low-income workers
+    type: Working Paper
+    field: Public Policy
+    date: 2024-07-29
+    journal: CLEF Working Paper Series
+    issue: WP #76
+    document: "https://clef.uwaterloo.ca/wp-content/uploads/2024/10/CLEF-076-2024.pdf"
+    abstract: |
+      We use administrative tax data to estimate the effect of the Working Income Tax Benefit (WITB) on the labour supply of single, low-income workers in Canada. Our analytical approach exploits low knowledge of the program, which has two important implications for our research design and identification strategy. First, low program knowledge allows us to treat WITB as an unconditional income transfer. Second, it generates variation in benefit receipt both between and within eligible tax filers over time. We find that benefit receipt has a robust positive effect on employment for single low-income workers, suggesting the additional income helps workers remain attached to the labour market. We also find that WITB receipt reduces labour supply at the intensive margin of work. The positive extensive margin and negative intensive margin results are consistent with a labour-leisure choice model that incorporates the fixed costs associated with working.
+    coauthors:
+      - Koebel
+      - Pohler
+
