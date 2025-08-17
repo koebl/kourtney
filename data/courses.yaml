@@ -81,6 +81,12 @@ courses:
     date: "2021-09-01"
     year: "2021-2024"
 
+  - title: "Wealth and Income Inequality and the Future of Business"
+    type: "Teaching Assistant (Graduate)" 
+    institution: "INSEAD"
+    date: "2025-01-01"
+    year: 2025    
+
 guestLectures:
   - title: "Wilfrid Laurier University (invited by Loren King)"
     date: "2018-11-05"
