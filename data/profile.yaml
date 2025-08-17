@@ -86,6 +86,7 @@ courseTypes:
     include:
       - institution: "Centre of Industrial Relations and Human Resources, University of Toronto"
       - institution: "Department of Business, MBA Program, Wilfrid Laurier University"
+      - institution: "INSEAD"      
   - type: "Teaching Assistant (Undergraduate)"
     include:
       - institution: "Department of Management, University of Toronto Scarborough"
