@@ -75,7 +75,9 @@ publicationTypes:
     heading: "Other Publications"
 
 mediaCategories:
-  - "Opinion Editorials and Other Commentary"
+  - "Interviews"
+  - "Editorials"
+  - "Other Publications"
 
 courseTypes:
   - type: "Course Instructor (Graduate)"
