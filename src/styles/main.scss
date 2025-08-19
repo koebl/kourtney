@@ -225,7 +225,7 @@ a:hover {
 /* Hero Section */
 .hero-section {
   width: 100%;
-  height: 150px;
+  height: 200px; /* Changed from 150px */
   overflow: hidden;
   position: relative;
   margin-bottom: 0;
@@ -242,7 +242,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .hero-section {
-    height: 250px;
+    height: 300px; /* Changed from 250px */
   }
 }
 
