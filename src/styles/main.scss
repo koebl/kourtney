@@ -259,7 +259,8 @@ a:hover {
 .profile-image {
   width: 200px;
   height: 200px;
-  margin: 0 auto;
+  margin: 0 auto 0 0; 
+  align-self: center;
   
   img {
     width: 100%;
@@ -331,12 +332,14 @@ a:hover {
   .profile-content {
     grid-template-columns: 250px 1fr;
     gap: 3rem;
+    align-items: center; /* This centers both columns vertically */
   }
   
   .profile-image {
     margin: 0;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    justify-self: start; /* Keeps it left within its grid column */
   }
 }
 
