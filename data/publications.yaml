@@ -165,6 +165,20 @@ publications:
       - Koebel
       - Dhuey
 
+  - id: childbeninsead
+    title: Can family tax benefits improve children's outcomes?
+    type: Other Publication
+    field: 
+    date: 2024-11-25
+    journal: INSEAD Knowledge Research Brief
+    document: |
+      https://knowledge.insead.edu/economics-finance/can-family-tax-benefits-improve-childrens-outcomes
+    abstract: |
+      Is there an optimal school starting age? It depends: older children perform better on standardized tests, but evidence of older school starting ages on long-term outcomes is mixed.
+    coauthors:
+      - Koebel
+      - Stabile
+      
   - id: jonesetal2024
     title: |
       The effect of household earnings on child school mental health designations: Evidence from administrative data
