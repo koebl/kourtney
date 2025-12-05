@@ -64,8 +64,6 @@ social:
     square: true
 
 publicationTypes:
-  - type: "Working Paper"
-    heading: "Working Papers"
   - type: "Journal Article"
     heading: "Journal Articles"
   - type: "Book Chapter"
@@ -73,6 +71,8 @@ publicationTypes:
     custom: true
   - type: "Other Publication"
     heading: "Other Publications"
+  - type: "Working Paper"
+    heading: "Working Papers"    
 
 mediaCategories:
   - "Interviews"
