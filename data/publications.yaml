@@ -332,3 +332,18 @@ publications:
     links:
       - title: CLEF Working Paper
         url: "https://clef.uwaterloo.ca/wp-content/uploads/2024/10/CLEF-076-2024.pdf"
+
+  - id: jhrinsead
+    title:  How household earnings affect children’s mental health.
+    type: Other Publication
+    field: 
+    date: 2025-10-09
+    journal: INSEAD Knowledge Research Brief
+    document: |
+      https://knowledge.insead.edu/economics-finance/how-household-earnings-affect-childrens-mental-health
+    abstract: |
+    coauthors:
+      - Lauren Jones
+      - Koebel
+      - Stabile
+      - Jill Furzer
