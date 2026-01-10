@@ -322,7 +322,9 @@ publications:
     field: Public Policy
     date: 2025-12-05
     journal: "Industrial Relations: A Journal of Economy and Society (Berkeley)"
-    issue: 
+    issue: 0
+    pages: 1-21
+    doi: 10.1111/irel.70015
     document: "https://onlinelibrary.wiley.com/doi/10.1111/irel.70015"
     abstract: |
         We use administrative tax data to estimate the effect of the Working Income Tax Benefit (WITB) on the labor supply of single, low-income workers in Canada. Our analytical approach exploits low knowledge of the program, which generates variation in the benefit receipt both between and within eligible tax filers over time. We find that the benefit receipt has a positive effect on the extensive margin of employment, suggesting that the additional income helps workers remain attached to the labor market. Among tax filers who do not receive social assistance, our results suggest that WITB receipt increases labor market attachment by roughly 3%.
