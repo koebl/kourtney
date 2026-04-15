@@ -165,7 +165,10 @@ coauthors:
     link: "https://umanitoba.ca/faculties/arts/departments/economics/faculty/economics_wayne_simpson.html"
   - name: "Stevens"
     first: "H."
-
+  - name: "Pollenne"
+    first: "D."
+    link: "https://dpollenne96.github.io/daisypollenne/"
+    
 settings:
   google_analytics: "G-Z8P4ZXE4BQ"
   recent_work_date: "2022-01-01"
