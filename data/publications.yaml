@@ -1,4 +1,20 @@
 publications:
+  - id: parentalwellbeing
+    title: "On penalties and premiums: The impact of childbirth on the well-being and work of parents"
+    type: Working Paper
+    field: 
+    date: 2026-04-08
+    journal: INSEAD Working Paper
+    document: |
+      https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6535518
+    abstract: |
+      Mitigating gender inequalities in the workplace that arise from parenthood is a key concern of organizations. Research on these inequalities has focused mainly on career and economic and inequalities, yet their effects on well-being, a key dimension of organizational performance, remain largely unexplored. To examine how changes in parents' work outcomes following childbirth affect wellbeing, we use the Understanding Society dataset to track their daily emotions and life satisfaction. We document striking gender differences in how well-being evolves after childbirth. While fathers report persistently lower well-being, the well-being of mothers depends on post-birth career trajectories: those who earn more or return to work full-time experience increased unhappiness, whereas those who reduce their hours or experience wage penalties do not. After showing that these changes reflect parents' increasing dissatisfaction with their work, we discuss how the inflexible nature of many organizations likely contributes to fathers' difficulty balancing family responsibilities with workplace demands and to the trade-off mothers face between career progression and wellbeing. The results of our paper suggest that mitigating gender inequality requires a broader perspective than the conventional focus on economic and career outcomes. Addressing persistent well-being trade-offs faced by working parents may therefore be critical for organizations seeking to retain talent, improve productivity, and maintain long-term performance.
+    publisher: INSEAD
+    city: Fontainebleau
+    coauthors:
+      - Koebel
+      - Pollenne
+      
   - id: bakerkoebelstabile2024
     title: The impact of family tax benefits on children’s health and educational outcomes
     type: Journal Article
