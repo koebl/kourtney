@@ -1,14 +1,14 @@
 publications:
   - id: parentalwellbeing
-    title: "On penalties and premiums: The impact of childbirth on the well-being and work of parents"
+    title: "Beyond penalties and premiums: Work and well-being after the transition to parenthood"
     type: Working Paper
     field: 
-    date: 2026-04-08
+    date: 2026-10-03
     journal: INSEAD Working Paper
     document: |
       https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6535518
     abstract: |
-      Mitigating gender inequalities in the workplace that arise from parenthood is a key concern of organizations. Research on these inequalities has focused mainly on career and economic and inequalities, yet their effects on well-being, a key dimension of organizational performance, remain largely unexplored. To examine how changes in parents' work outcomes following childbirth affect wellbeing, we use the Understanding Society dataset to track their daily emotions and life satisfaction. We document striking gender differences in how well-being evolves after childbirth. While fathers report persistently lower well-being, the well-being of mothers depends on post-birth career trajectories: those who earn more or return to work full-time experience increased unhappiness, whereas those who reduce their hours or experience wage penalties do not. After showing that these changes reflect parents' increasing dissatisfaction with their work, we discuss how the inflexible nature of many organizations likely contributes to fathers' difficulty balancing family responsibilities with workplace demands and to the trade-off mothers face between career progression and wellbeing. The results of our paper suggest that mitigating gender inequality requires a broader perspective than the conventional focus on economic and career outcomes. Addressing persistent well-being trade-offs faced by working parents may therefore be critical for organizations seeking to retain talent, improve productivity, and maintain long-term performance.
+      The transition to parenthood is a key source of gender inequality in the labor market, yet little is known about whether the employment changes that produce this inequality also shape parents' well-being. Using Understanding Society, a UK panel survey, we track 3,898 individuals across the birth of their first child. We find that mothers' emotional well-being varies with post-birth work trajectories: those who remain in full-time work experience increased unhappiness, whereas those who move into part-time work or leave employment do not. Fathers report sustained declines in well-being despite unchanged employment outcomes. Well-being penalties thus run counter to economic ones. We show that these well-being changes track how parents evaluate their working arrangements rather than their income. Our findings suggest that the misalignment between the structure of work and the realities of parenthood generates persistent well-being costs that conventional labor market outcomes alone do not capture.
     publisher: INSEAD
     city: Fontainebleau
     coauthors:
