@@ -1,5 +1,22 @@
 publications:
   - id: parentalwellbeing
+    title: "The impact of workplace flexibility on gender equality in the labor market"
+    type: Working Paper
+    field: 
+    date: 2026-08-13
+    journal: INSEAD Working Paper
+    document: |
+      https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7299558
+    abstract: |
+      Flexible work is often understood as a way to narrow gender labor market inequality, though causal evidence remains limited. We exploit the UK's 2014 extension of the Right to Request Flexible Working, which broadened eligibility from parents and carers to all sufficiently tenured employees. We find that the reform widened the gender earnings gap by 4.6 percent for eligible workers. This is driven by reductions in women's labor supply, with no change in the price of an hour of work. Our results suggest that equal access to flexibility may widen earnings inequality if gendered norms around labor supply remain unaddressed.
+    publisher: INSEAD
+    city: Fontainebleau
+    coauthors:
+      - Pollenne
+      - Koebel 
+      
+publications:
+  - id: parentalwellbeing
     title: "Beyond penalties and premiums: Work and well-being after the transition to parenthood"
     type: Working Paper
     field: 
